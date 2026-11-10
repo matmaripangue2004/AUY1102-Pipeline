@@ -1,5 +1,8 @@
 name: Re-usable Workflow
-
+on:
+  pull_request:
+    branches:
+      - master
 on:
     workflow_call:
 
